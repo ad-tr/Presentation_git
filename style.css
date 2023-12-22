@@ -1,0 +1,50 @@
+/* CSS global */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Bandeau en haut */
+.header {
+    background-color: #4CAF50; /* Couleur verte */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Ombre légère pour le relief */
+}
+
+/* Style général des conteneurs */
+.container {
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px; /* Largeur maximale pour les grands écrans */
+}
+
+/* Style des blocs de texte */
+.box {
+    background-color: white;
+    border-radius: 8px; /* Bords arrondis */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Ombre pour donner de la profondeur */
+}
+
+/* Petits ajustements pour les liens */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Média queries pour le responsive design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
